@@ -29,7 +29,7 @@ textx generate my.bib --target text --sort year,type
 ```
 
 Currently, templates for reference output format are hardcoded (see
-`bibtexreport/__init__.py`) but the plan is to make them specified as a separate
+`bibtexreport/__init__.py`) but the plan is to make them specified as separate
 files. For templates processing [Jinja](https://jinja.palletsprojects.com/) is
 used.
 
